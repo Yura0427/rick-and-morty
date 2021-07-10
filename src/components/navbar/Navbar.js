@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function NavbarComponent() {
     return (
         <Navbar bg="light" expand="sm">
-        <Navbar.Brand  as={Link} to="/">Rick And Morty</Navbar.Brand>
+        <Navbar.Brand  as={Link} to="/">Rick and Morty</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

@@ -1,11 +1,12 @@
 import React from "react";
 
-export default function CharactersCard(props) {
+export default function CharactersCard({episode}) {
+  let { id, name, air_date } = episode;
   return (
     <tr>
-      <td>{props.episode.id}</td>
-      <td>{props.episode.name}</td>
-      <td>{props.episode.air_date}</td>
+      <td>{id}</td>
+      <td>{name}</td>
+      <td>{air_date}</td>
     </tr>
   );
 }

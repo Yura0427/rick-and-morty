@@ -2,7 +2,6 @@ import React from "react";
 import { Pagination } from "react-bootstrap";
 
 export default function PaginationPage({info, active, setActive}) {
-  // console.log('props');
   let items = [];
   for (let number = 1; number <= info.pages; number++) {
     items.push(
