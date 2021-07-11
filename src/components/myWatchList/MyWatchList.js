@@ -55,10 +55,10 @@ export default function MyWatchList() {
       </div>
       <div className="container">
         <ul style={{ listStyle: "none", margin: "0", padding: "0" }}>
-          {watchList &&
+          {watchList.length ?
             watchList.map((element) => {
               return <TodoItem key={element.id} element={element} />;
-            })}
+            }): <p>No todos!!!</p>}
         </ul>
       </div>
     </>

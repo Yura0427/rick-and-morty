@@ -3,14 +3,8 @@ import portal from "../img/rick-morty-portal.jpg";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <img alt="portal" src={portal} width="100%" />
+    <div>
+      <img alt="portal" src={portal} width="100%" height="100%" />
     </div>
   );
 }

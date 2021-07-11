@@ -6,6 +6,8 @@ export default function CharactersCard({episode}) {
     <tr>
       <td>{id}</td>
       <td>{name}</td>
+      <td>{episode.episode.split(/(?=[A-Z])/)[0].slice(1)}</td>
+      <td>{episode.episode.split(/(?=[A-Z])/)[1].slice(1)}</td>
       <td>{air_date}</td>
     </tr>
   );

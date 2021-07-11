@@ -56,6 +56,8 @@ export default function Episodes() {
                   />
                 </InputGroup>
               </th>
+              <th>Sezon</th>
+              <th>Epizod</th>
               <th>Air date</th>
             </tr>
           </thead>
